@@ -1,9 +1,67 @@
-var data = new Date();
-console.log("data completa: " + data);
-console.log("mês: " + (data.getMonth()+1));
-console.log("minutos: " + data.getMinutes());
-console.log("dia: " + data.getDay());
-console.log("horas: " + data.getHours());
+function botao(){
+    document.getElementById("agradecimento").innerHTML = "<b><i>Obrigado por clicar!</i></b>";
+    //incrementa um texto no elemento em bold e itálico
+
+    //alert("Obrigado por clicar!");
+}
+
+function redirecionar(){
+    window.open("https://digitalinnovation.one/"); //abre em uma nova aba
+
+    // window.location.href = "https://digitalinnovation.one/"; //abre na mesma aba
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigado por passar o mouse!";
+    // alert("Trocar texto");
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("página carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
+
+// function soma(n1,n2){
+//     return n1 + n2;
+// }
+
+
+// function setReplace(frase,nome,novo_nome){
+//     return frase.replace(nome,novo_nome);
+// }
+
+// function validaIdade(idade){
+//     var validar;
+//     if (idade >= 18){
+//         validar = true; 
+//     } else {
+//         validar = false;
+//     }
+
+//     return validar;
+// }
+
+// var idade = prompt("Qual sua idade?");
+// console.log(validaIdade(idade));
+
+
+// alert(soma(1,4));
+// console.log(setReplace("Bom dia Emily ","Emily","Ramona"));
+
+
+// var data = new Date();
+// console.log("data completa: " + data);
+// console.log("mês: " + (data.getMonth()+1));
+// console.log("minutos: " + data.getMinutes());
+// console.log("dia: " + data.getDay());
+// console.log("horas: " + data.getHours());
 
 
 
